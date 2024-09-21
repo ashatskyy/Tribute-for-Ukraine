@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	font-family: Tahoma, sans-serif
+}
+#main{
+	background-color: rgba(240, 249, 252, 0.962);
+	text-align: center;
+	padding: 16px;
+	margin: 32px 7px 32px;
+	border-radius: 5px;
+}
+
+#title{
+	font-size: 3em;
+}
+
+#coa-image{
+	width: 4.5em;
+	height: 4.5em;
+}
+
+#img-div {
+	background-color: white;
+  margin: 0 auto;
+	padding: 0 12px 12px;
+}
+
+#image{
+	max-width: 1020px;
+	width: 100%;
+	height: auto;
+}
+
+#img-caption{
+	margin: 8px 0;
+}
+
+#list{
+	margin: 0 auto;
+	text-align: left;
+	max-width: 700px;
+}
+
+li{
+	margin: 1.2em;
+	line-height: 2em;
+}
+
+h2,h3{
+	margin: 58px 0;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+.quote{
+	margin-top: 60px;
+	list-style-type: none;
+	font-style: italic;
+}
