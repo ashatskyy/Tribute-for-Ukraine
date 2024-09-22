@@ -1,15 +1,16 @@
-body{
-	margin: 0;
-	font-family: Tahoma, sans-serif;
-	font-size: 22px;
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 22px;
+  color: rgb(3, 3, 74);
 }
 
-#main{
-	background-color: rgba(240, 249, 252, 0.962);
-	text-align: center;
-	padding: 33px 7px  20px;
-	margin: 32px 7px 32px;
-	border-radius: 5px;
+#main {
+  background-color: rgba(240, 249, 252, 0.962);
+  text-align: center;
+  padding: 33px 7px 20px;
+  margin: 32px 7px 32px;
+  border-radius: 5px;
 }
 
 @media (max-width: 460px) {
@@ -18,78 +19,93 @@ body{
   }
 }
 
-#title{
-	font-size: 2.5em;
-	margin-top: 10px;
-	font-weight: 900;
+#title {
+  font-size: 2.5em;
+  margin-top: 10px;
+  font-weight: 900;
 }
 
-#coa-image{
-	width: 4.5em;
-	height: 4.5em;
+@media (max-width: 460px) {
+  #title {
+    font-size: 2em;
+  }
+}
+
+#coa-image {
+  width: 4.5em;
+  height: 4.5em;
 }
 
 #img-div {
-	background-color: white;
+  background-color: white;
   margin: 0 auto;
-	padding: 0 0 12px;
+  padding: 0 0 12px;
 }
 
-#image{
-	max-width: 1020px;
-	height: auto;
-	width: 100%;
-}
-#image-mob{
-	max-width: 500px;
-	height: auto;
-	width: 100%;
+#image {
+  max-width: 1020px;
+  height: auto;
+  width: 100%;
 }
 
-
-#image-mob{
-	display: none;
+#image-mob {
+  max-width: 500px;
+  height: auto;
+  width: 100%;
 }
 
-@media (max-width:460px){
-	#image-mob{
-		display: block;
+#image-mob {
+  display: none;
+}
+
+@media (max-width: 460px) {
+  #image-mob {
+    display: block;
+  }
+  #image {
+    display: none;
+  }
+}
+
+#img-caption {
+  margin: 8px 0;
+  line-height: 1.5em;
+}
+
+#list {
+  margin: 0 auto;
+  text-align: left;
+  max-width: 550px;
+}
+
+ul {
+  margin-top: 0;
+  padding: 0 30px;
+}
+
+li {
+  margin: 1.2em;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 58px 0;
+}
+
+@media (max-width: 460px) {
+	h2 {
+		font-size: 1.2em;
+		margin: 40px 0;
 	}
-	#image{
-		display: none;
-	}
 }
 
-#img-caption{
-	margin: 8px 0;
-	line-height: 1.5em;
+h3 {
+  margin-bottom: 20px;
+  font-size: 1.1em;
 }
 
-#list{
-	margin: 0 auto;
-	text-align: left;
-	max-width: 550px;
-}
 
-ul{
-	margin-top: 0;
-	padding: 0 30px;
-}
-
-li{
-	margin: 1.2em;
-	line-height: 1.5em;
-}
-
-h2{
-	font-size: 1.2em;
-	margin: 58px 0;
-}
-
-h3{
-	margin-bottom: 20px;
-	font-size: 1.1em;
-}
 
 a {
   color: #477ca7;
@@ -99,9 +115,9 @@ a:visited {
   color: #74638f;
 }
 
-.quote{
-	margin: 40px 20px 40px;
-	list-style-type: none;
-	font-style: italic;
-	font-size: 1.1em;
+.quote {
+  margin: 40px 20px 40px;
+  list-style-type: none;
+  font-style: italic;
+  font-size: 1.1em;
 }
