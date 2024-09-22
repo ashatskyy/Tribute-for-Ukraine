@@ -1,6 +1,7 @@
 body{
 	margin: 0;
-	font-family: Tahoma, sans-serif
+	font-family: Tahoma, sans-serif;
+	font-size: 22px;
 }
 
 #main{
@@ -36,18 +37,38 @@ body{
 
 #image{
 	max-width: 1020px;
-	width: 100%;
 	height: auto;
+	width: 100%;
+}
+#image-mob{
+	max-width: 500px;
+	height: auto;
+	width: 100%;
+}
+
+
+#image-mob{
+	display: none;
+}
+
+@media (max-width:460px){
+	#image-mob{
+		display: block;
+	}
+	#image{
+		display: none;
+	}
 }
 
 #img-caption{
 	margin: 8px 0;
+	line-height: 1.5em;
 }
 
 #list{
 	margin: 0 auto;
 	text-align: left;
-	max-width: 700px;
+	max-width: 550px;
 }
 
 ul{
@@ -57,7 +78,7 @@ ul{
 
 li{
 	margin: 1.2em;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
 h2{
@@ -82,5 +103,5 @@ a:visited {
 	margin: 40px 20px 40px;
 	list-style-type: none;
 	font-style: italic;
-	font-size: 1em;
+	font-size: 1.1em;
 }
