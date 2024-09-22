@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Tahoma, sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(3, 3, 74);
 }
 
@@ -84,7 +84,7 @@ ul {
 }
 
 li {
-  margin: 1.2em;
+  margin: 1.5em;
   line-height: 1.5em;
 }
 
