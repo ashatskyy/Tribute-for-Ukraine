@@ -90,13 +90,13 @@ li {
 
 h2 {
   font-size: 1em;
-  margin: 38px 0;
+  margin: 55px;
 }
 
 @media (max-width: 460px) {
 	h2 {
-		font-size: 1.2em;
-		margin: 40px 0;
+		font-size: 1em;
+		margin: 50px 0;
 	}
 }
 
