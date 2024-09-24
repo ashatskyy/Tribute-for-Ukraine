@@ -16,7 +16,7 @@ body {
 @media (max-width: 460px) {
   #main {
     margin: 0;
-		padding-top: 12px;
+		padding-top: 16px;
   }
 }
 
